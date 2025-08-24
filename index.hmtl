@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mijn Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welkom op onze Montagne website</h1>
+    <p>"warm- en koudeblazers van op de top van de Montagne"</p>
+  </header>
+
+  <nav>
+    <a href="#over">Over mij</a>
+    <a href="#projecten">Projecten</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+<img src="blaasoperatie.jpg" alt="Profielfoto" width="150">
+     <h2>Hoi, wij zijn Montagne </h2>
+    <p>En dit is onze professionele blazers-website 🎉</p>
+  </section>
+
+  <section id="over">
+    <h2>Over ons </h2>
+    <p> wij zijn fiscale- , bemiddelende - en beleggingsblazers </p>
+  </section>
+
+  <section id="projecten">
+    <h2> over onze blaas-initiatieven hoor je binnenkort meer </h2>
+    <ul>
+      <li> focus op family offices – Beschrijving</li>
+      <li> focus op bemiddelde families – Beschrijving</li>
+      <li> focus op groepen van ondernemingen – Beschrijving</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Je kunt ons bereiken via <a href="mailto:Werner.Huygen@gmail.com">e-mail</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mijn Website</p>
+  </footer>
+</body>
+</html>
